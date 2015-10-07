@@ -1,0 +1,499 @@
+{
+    "appKeys": {
+        "BOTTOM_KEY_COLOR_BLUE": 22,
+        "BOTTOM_KEY_COLOR_GREEN": 21,
+        "BOTTOM_KEY_COLOR_RED": 20,
+        "CALENDAR_EVENT_NAME": 14,
+        "HUB1_ACCOUNT_KEY": 0,
+        "HUB1_VALUE_KEY": 1,
+        "HUB2_ACCOUNT_KEY": 2,
+        "HUB2_VALUE_KEY": 3,
+        "HUB3_ACCOUNT_KEY": 4,
+        "HUB3_VALUE_KEY": 5,
+        "HUB4_ACCOUNT_KEY": 6,
+        "HUB4_VALUE_KEY": 7,
+        "HUB5_ACCOUNT_KEY": 8,
+        "HUB5_VALUE_KEY": 9,
+        "HUB6_ACCOUNT_KEY": 10,
+        "HUB6_VALUE_KEY": 11,
+        "PHONE_PERCENT": 13,
+        "SHOW_CALENDAR_SCREEN_KEY": 16,
+        "SLOT_COUNTER_KEY": 15,
+        "TIME_KEY_COLOR_BLUE": 25,
+        "TIME_KEY_COLOR_GREEN": 24,
+        "TIME_KEY_COLOR_RED": 23,
+        "TOP_KEY_COLOR_BLUE": 19,
+        "TOP_KEY_COLOR_GREEN": 18,
+        "TOP_KEY_COLOR_RED": 17,
+        "VIBRATE_KEY": 12
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "CellNinja",
+    "longName": "H2W Color",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/hg10_58.png",
+                "name": "ICON_HG10_58",
+                "type": "png"
+            },
+            {
+                "file": "images/email_34.png",
+                "name": "ICON_EMAIL_34",
+                "type": "png"
+            },
+            {
+                "file": "images/ic_pin_58.png",
+                "name": "ICON_PIN_58",
+                "type": "png"
+            },
+            {
+                "file": "images/thunder_58.png",
+                "name": "THUNDER_58",
+                "type": "png"
+            },
+            {
+                "file": "images/quickpost_34.png",
+                "name": "ICON_QUICKPOST_34",
+                "type": "png"
+            },
+            {
+                "file": "images/cloudy_34.png",
+                "name": "CLOUDY_34",
+                "type": "png"
+            },
+            {
+                "file": "images/linkedin_58.png",
+                "name": "ICON_LINKEDIN_58",
+                "type": "png"
+            },
+            {
+                "file": "images/wechat_34.png",
+                "name": "ICON_WECHAT_34",
+                "type": "png"
+            },
+            {
+                "file": "images/email_58.png",
+                "name": "ICON_EMAIL_58",
+                "type": "png"
+            },
+            {
+                "file": "images/cloudy_58.png",
+                "name": "CLOUDY_58",
+                "type": "png"
+            },
+            {
+                "file": "images/phone_error_58.png",
+                "name": "PHONE_ERROR_58",
+                "type": "png"
+            },
+            {
+                "file": "images/hg10_34.png",
+                "name": "ICON_HG10_34",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-day_34.png",
+                "name": "CLEAR_DAY_34",
+                "type": "png"
+            },
+            {
+                "file": "images/twittly_34.png",
+                "name": "ICON_TWITTLY_34",
+                "type": "png"
+            },
+            {
+                "file": "images/thunder_34.png",
+                "name": "THUNDER_34",
+                "type": "png"
+            },
+            {
+                "file": "images/blaq_58.png",
+                "name": "ICON_BLAQ_58",
+                "type": "png"
+            },
+            {
+                "file": "images/blaq_34.png",
+                "name": "ICON_BLAQ_34",
+                "type": "png"
+            },
+            {
+                "file": "images/phone_error_34.png",
+                "name": "PHONE_ERROR_34",
+                "type": "png"
+            },
+            {
+                "file": "images/drizzle_34.png",
+                "name": "DRIZZLE_34",
+                "type": "png"
+            },
+            {
+                "file": "images/hot_34.png",
+                "name": "HOT_34",
+                "type": "png"
+            },
+            {
+                "file": "images/calendar_58.png",
+                "name": "ICON_CALENDAR_58",
+                "type": "png"
+            },
+            {
+                "file": "images/sms_34.png",
+                "name": "ICON_TEXT_34",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9 \\*-\u00b0]",
+                "file": "fonts/futura.ttf",
+                "name": "FUTURA_35",
+                "trackingAdjust": -4,
+                "type": "font"
+            },
+            {
+                "file": "images/linkedin_34.png",
+                "name": "ICON_LINKEDIN_34",
+                "type": "png"
+            },
+            {
+                "file": "images/snow-sleet_58.png",
+                "name": "SNOW_SLEET_58",
+                "type": "png"
+            },
+            {
+                "file": "images/rain-snow_34.png",
+                "name": "RAIN_SNOW_34",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-night_34.png",
+                "name": "CLEAR_NIGHT_34",
+                "type": "png"
+            },
+            {
+                "file": "images/not-available_58.png",
+                "name": "NOT_AVAILABLE_58",
+                "type": "png"
+            },
+            {
+                "file": "images/facebook_58.png",
+                "name": "ICON_FACEBOOK_58",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-day_58.png",
+                "name": "CLEAR_DAY_58",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-day_58.png",
+                "name": "PARTLY_CLOUDY_DAY_58",
+                "type": "png"
+            },
+            {
+                "file": "images/vip_58.png",
+                "name": "ICON_VIP_58",
+                "type": "png"
+            },
+            {
+                "file": "images/sleet_34.png",
+                "name": "SLEET_34",
+                "type": "png"
+            },
+            {
+                "file": "images/wechat_58.png",
+                "name": "ICON_WECHAT_58",
+                "type": "png"
+            },
+            {
+                "file": "images/twittly_58.png",
+                "name": "ICON_TWITTLY_58",
+                "type": "png"
+            },
+            {
+                "file": "images/bbm_58.png",
+                "name": "ICON_BBM_58",
+                "type": "png"
+            },
+            {
+                "file": "images/notification_58.png",
+                "name": "ICON_NOTIFICATION_58",
+                "type": "png"
+            },
+            {
+                "file": "images/rain-sleet_58.png",
+                "name": "RAIN_SLEET_58",
+                "type": "png"
+            },
+            {
+                "file": "images/quickpost_58.png",
+                "name": "ICON_QUICKPOST_58",
+                "type": "png"
+            },
+            {
+                "file": "images/whatsapp_34.png",
+                "name": "ICON_WHATSAPP_34",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-day_34.png",
+                "name": "PARTLY_CLOUDY_DAY_34",
+                "type": "png"
+            },
+            {
+                "file": "images/rain-sleet_34.png",
+                "name": "RAIN_SLEET_34",
+                "type": "png"
+            },
+            {
+                "file": "images/empty_34.png",
+                "name": "ICON_EMPTY_34",
+                "type": "png"
+            },
+            {
+                "file": "images/sleet_58.png",
+                "name": "SLEET_58",
+                "type": "png"
+            },
+            {
+                "file": "images/rain-snow_58.png",
+                "name": "RAIN_SNOW_58",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-night_58.png",
+                "name": "CLEAR_NIGHT_58",
+                "type": "png"
+            },
+            {
+                "file": "images/facebook_34.png",
+                "name": "ICON_FACEBOOK_34",
+                "type": "png"
+            },
+            {
+                "file": "images/bbm_34.png",
+                "name": "ICON_BBM_34",
+                "type": "png"
+            },
+            {
+                "file": "images/hot_58.png",
+                "name": "HOT_58",
+                "type": "png"
+            },
+            {
+                "file": "images/snow_34.png",
+                "name": "SNOW_34",
+                "type": "png"
+            },
+            {
+                "file": "images/snow-sleet_34.png",
+                "name": "SNOW_SLEET_34",
+                "type": "png"
+            },
+            {
+                "file": "images/slack_58.png",
+                "name": "ICON_SLACK_58",
+                "type": "png"
+            },
+            {
+                "file": "images/foursquare_34.png",
+                "name": "ICON_FOURSQUARE_34",
+                "type": "png"
+            },
+            {
+                "file": "images/phone_58.png",
+                "name": "ICON_CALL_58",
+                "type": "png"
+            },
+            {
+                "file": "images/voicemail_34.png",
+                "name": "ICON_VOICEMAIL_34",
+                "type": "png"
+            },
+            {
+                "file": "images/drizzle_58.png",
+                "name": "DRIZZLE_58",
+                "type": "png"
+            },
+            {
+                "file": "images/wind_34.png",
+                "name": "WIND_34",
+                "type": "png"
+            },
+            {
+                "file": "images/cold_34.png",
+                "name": "COLD_34",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-night_34.png",
+                "name": "PARTLY_CLOUDY_NIGHT_34",
+                "type": "png"
+            },
+            {
+                "file": "images/ic_pin_34.png",
+                "name": "ICON_PIN_34",
+                "type": "png"
+            },
+            {
+                "file": "images/calendar_34.png",
+                "name": "ICON_CALENDAR_34",
+                "type": "png"
+            },
+            {
+                "file": "images/whatsapp_58.png",
+                "name": "ICON_WHATSAPP_58",
+                "type": "png"
+            },
+            {
+                "file": "images/fog_58.png",
+                "name": "FOG_58",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_futura.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/fog_34.png",
+                "name": "FOG_34",
+                "type": "png"
+            },
+            {
+                "file": "images/cold_58.png",
+                "name": "COLD_58",
+                "type": "png"
+            },
+            {
+                "file": "images/voicemail_58.png",
+                "name": "ICON_VOICEMAIL_58",
+                "type": "png"
+            },
+            {
+                "file": "images/vip_34.png",
+                "name": "ICON_VIP_34",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-night_58.png",
+                "name": "PARTLY_CLOUDY_NIGHT_58",
+                "type": "png"
+            },
+            {
+                "file": "images/slack_34.png",
+                "name": "ICON_SLACK_34",
+                "type": "png"
+            },
+            {
+                "file": "images/wind_58.png",
+                "name": "WIND_58",
+                "type": "png"
+            },
+            {
+                "file": "images/twitter_58.png",
+                "name": "ICON_TWITTER_58",
+                "type": "png"
+            },
+            {
+                "file": "images/instagram_34.png",
+                "name": "ICON_INSTAGRAM_34",
+                "type": "png"
+            },
+            {
+                "file": "images/snow_58.png",
+                "name": "SNOW_58",
+                "type": "png"
+            },
+            {
+                "file": "images/rain_34.png",
+                "name": "RAIN_34",
+                "type": "png"
+            },
+            {
+                "file": "images/not-available_34.png",
+                "name": "NOT_AVAILABLE_34",
+                "type": "png"
+            },
+            {
+                "file": "images/talk_34.png",
+                "name": "ICON_GOOGLE_TALK_34",
+                "type": "png"
+            },
+            {
+                "file": "images/twitter_34.png",
+                "name": "ICON_TWITTER_34",
+                "type": "png"
+            },
+            {
+                "file": "images/cloud-error_34.png",
+                "name": "CLOUD_ERROR_34",
+                "type": "png"
+            },
+            {
+                "file": "images/phone_34.png",
+                "name": "ICON_CALL_34",
+                "type": "png"
+            },
+            {
+                "file": "images/rain_58.png",
+                "name": "RAIN_58",
+                "type": "png"
+            },
+            {
+                "file": "images/empty_58.png",
+                "name": "ICON_EMPTY_58",
+                "type": "png"
+            },
+            {
+                "file": "images/cloud-error_58.png",
+                "name": "CLOUD_ERROR_58",
+                "type": "png"
+            },
+            {
+                "file": "images/foursquare_58.png",
+                "name": "ICON_FOURSQUARE_58",
+                "type": "png"
+            },
+            {
+                "file": "images/sms_58.png",
+                "name": "ICON_TEXT_58",
+                "type": "png"
+            },
+            {
+                "file": "images/instagram_58.png",
+                "name": "ICON_INSTAGRAM_58",
+                "type": "png"
+            },
+            {
+                "file": "images/notification_34.png",
+                "name": "ICON_NOTIFICATION_34",
+                "type": "png"
+            },
+            {
+                "file": "images/talk_58.png",
+                "name": "ICON_GOOGLE_TALK_58",
+                "type": "png"
+            },
+            {
+                "file": "fonts/futura_condensed_bold-webfont.ttf",
+                "name": "FUTURA_CONDENSED_53",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "H2WC",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "28AF3DC7-E40D-490F-BEF2-29548C8BEEEC",
+    "versionLabel": "1.3",
+    "watchapp": {
+        "watchface": true
+    }
+}
