@@ -1,5 +1,5 @@
 # H2WC
-H2WC BlackBerry connected watchface
+H2WC BlackBerry connected watchface for Pebble.
 
 LICENSE
 --------------
