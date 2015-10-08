@@ -86,6 +86,7 @@ enum Watchface {
 };
 
 int watchface_used = WATCHFACE_1;
+bool animation_is_ongoing = false;
 
 enum HubKey {
   HUB1_ACCOUNT_KEY = 0x00,  		// TUPLE_INT
@@ -419,9 +420,17 @@ static void anim_stopped_handler(Animation *animation, bool finished, void *cont
 #ifdef PBL_SDK_2
   property_animation_destroy(prop_anim);
 #endif
+animation_is_ongoing = false;	
 }
 
 static void animate_hub_layer(GRect start, GRect finish) {
+	if (animation_is_ongoing) {
+		#ifdef PBL_SDK_2
+			property_animation_destroy(prop_anim);
+		#endif
+	}
+	
+  animation_is_ongoing = true;
   prop_anim = property_animation_create_layer_frame(hub_layer, &start, &finish);
   animation_set_duration((Animation*)prop_anim, 1000);
   animation_set_handlers((Animation*)prop_anim, (AnimationHandlers) {
