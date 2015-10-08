@@ -410,7 +410,6 @@ void update_configuration(void)
 }
 
 static void update_proc(Layer *layer, GContext *ctx) {
-//	APP_LOG(APP_LOG_LEVEL_DEBUG, "update_proc called");
 	const GRect bounds = layer_get_bounds(layer);
     graphics_context_set_fill_color(ctx, bottom_color);
     graphics_fill_rect(ctx, bounds, 0, GCornerNone);
@@ -418,7 +417,8 @@ static void update_proc(Layer *layer, GContext *ctx) {
 
 static void anim_stopped_handler(Animation *animation, bool finished, void *context) {
 #ifdef PBL_SDK_2
-  property_animation_destroy(prop_anim);
+  if (prop_anim) property_animation_destroy(prop_anim);
+	prop_anim = NULL;
 #endif
 animation_is_ongoing = false;	
 }
@@ -426,10 +426,11 @@ animation_is_ongoing = false;
 static void animate_hub_layer(GRect start, GRect finish) {
 	if (animation_is_ongoing) {
 		#ifdef PBL_SDK_2
-			property_animation_destroy(prop_anim);
-		#endif
-	}
-	
+			animation_unschedule((Animation*)prop_anim);
+			if (prop_anim) property_animation_destroy(prop_anim);
+		    prop_anim = NULL;
+		#endif	
+	}	
   animation_is_ongoing = true;
   prop_anim = property_animation_create_layer_frame(hub_layer, &start, &finish);
   animation_set_duration((Animation*)prop_anim, 1000);
@@ -441,8 +442,7 @@ static void animate_hub_layer(GRect start, GRect finish) {
 
 static void inbox_received_handler(DictionaryIterator *iter, void *context) {
   // Used for refreshing screen if new colors have been received
-  bool refresh_needed = false;
-	
+  bool refresh_needed = false;	
   Tuple *tuple = dict_read_first(iter);
   while (tuple) {
   	switch (tuple->key) {
