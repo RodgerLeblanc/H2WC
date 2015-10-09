@@ -1007,6 +1007,11 @@ static void deinit() {
   fonts_unload_custom_font(large_font);
 	
   bluetooth_connection_service_unsubscribe();
+  if (persist_exists(CONFIG_KEY_BATTERY)) {
+	  if (persist_read_bool(CONFIG_KEY_BATTERY)) {
+		  accel_tap_service_unsubscribe();
+	  }
+  }
 }
 
 int main(void) {
